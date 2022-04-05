@@ -1,0 +1,11 @@
+<div class="container">
+	<div class="is-flex flex-grow-1 justify-content-center align-items-center">
+	  <div class="brand-logo">
+        <%= image_tag("budgetbulga.png", width:'150px', height:'100px') %>
+      </div>
+	</div>
+	<div class="is-flex flex-direction-column buttons">
+		<%= link_to 'Log in', new_user_session_url, class: "btn btn-success" %>
+		<%= link_to 'Sign up', new_user_registration_url, class: "btn btn-primary" %>
+	</div>
+</div>
