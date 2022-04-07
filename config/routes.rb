@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
-  get 'users/index'
+  # get 'users/index'
   devise_for :users
+  unauthenticated :user do
+    root to: 'users#index'
+  end
+
+  authenticated :user do
+    root to: 'categories#index', as: :authenticated_root
+  end
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   resources :categories do
     resources :transactions
@@ -11,5 +19,4 @@ Rails.application.routes.draw do
   end
   # Defines the root path route ("/")
   # root "articles#index"
-  root to: 'users#index'
 end
