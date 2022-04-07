@@ -2,12 +2,14 @@
 
 <h1>Categories</h1>
 
+<div class="col3">
+<p><%= link_to "Sign out", destroy_user_session_path, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+</div>
+
 <div id="categories">
   <% @categories.each do |category| %>
+  <a href = "/categories/<%= category.id %>/transactions" >
     <%= render category %>
-    <p>
-      <%= link_to "Show this category", category %>
-    </p>
   <% end %>
 </div>
 
