@@ -1,12 +1,14 @@
 <div id="<%= dom_id transaction %>">
+
+  <div class="category-img">
+    <%= image_tag example_img(@category) %>
+  </div>
   <p>
-    <strong>Name:</strong>
-    <%= transaction.name %>
+    <strong><%= transaction.name %></strong>
   </p>
 
   <p>
-    <strong>Amount:</strong>
-    <%= transaction.amount %>
+    <strong> <%= transaction.amount %> $</strong>
   </p>
 
 </div>

@@ -18,10 +18,10 @@
 
   <div>
     <%= form.label :icon, style: "display: block" %>
-    <%= form.text_field :icon %>
+    <%= form.url_field :icon, class: "icon_category" %>
   </div>
 
   <div>
-    <%= form.submit %>
+    <%= form.submit class: "btn btn-success" %>
   </div>
 <% end %>
