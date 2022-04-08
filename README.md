@@ -70,6 +70,7 @@ Give a ⭐️ if you like this project!
 
 - Heartfelt thanks to Microverse
 - A special thanks to [design guidlines](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
+- At last and not least I thanks the designer [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)
 
 ## 📝 License
 
