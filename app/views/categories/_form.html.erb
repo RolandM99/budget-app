@@ -1,0 +1,29 @@
+<div class="container">
+<%= form_with(model: category) do |form| %>
+  <% if category.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(category.errors.count, "error") %> prohibited this category from being saved:</h2>
+
+      <ul>
+        <% category.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :name, class: "form-label", style: "display: block" %>
+    <%= form.text_field :name, class: "form-control" %>
+  </div>
+
+  <div>
+    <%= form.label :icon, class: "form-label", style: "display: block" %>
+    <%= form.url_field :icon, class: "form-control", placeholder: "Add a png URL" %>
+  </div><br>
+
+  <div class="sign-buttons">
+    <%= form.submit class: "btn btn-success", id: "btn-log" %>
+  </div>
+<% end %>
+</div>

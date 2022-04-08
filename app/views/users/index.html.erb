@@ -1,0 +1,9 @@
+<div class="container">
+	  <div class="brand-logo">
+        <%= image_tag("budgetbulga.png", width:'220px', class: "img", height:'140px') %>
+      </div>
+	<div class="sign-buttons">
+		<%= link_to 'Log in', new_user_session_url, id: "btn-log", class: "btn btn-success" %>
+		<%= link_to 'Sign up', new_user_registration_url, id: "btn-sign", class: "btn btn-primary" %>
+	</div>
+</div>
