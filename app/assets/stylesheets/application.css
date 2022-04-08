@@ -40,6 +40,7 @@ body {
 
 span {
   width: 50px;
+  margin-left: -20px;
 }
 
 #btn-log {
@@ -62,11 +63,12 @@ span {
 
 svg {
   margin-top: 12px;
-  margin-left: -40px;
+  margin-left: -45px;
 }
 
 .sign-out {
   color: white;
+  text-decoration: none;
 }
 
 .out {
@@ -131,7 +133,7 @@ h2 {
 .add-category {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 180px;
   height: 80px;
   margin-bottom: 20px;
   background-color: #5fb523;
