@@ -1,3 +1,4 @@
+<div class="container">
 <%= form_with model: [@category, @category.transactions.create]  do |form| %>
   <% if transaction.errors.any? %>
     <div style="color: red">
@@ -12,16 +13,17 @@
   <% end %>
 
   <div>
-    <%= form.label :name, style: "display: block" %>
-    <%= form.text_field :name %>
+    <%= form.label :name, class: "form-label", style: "display: block" %>
+    <%= form.text_field :name, class: "form-control" %>
   </div>
 
   <div>
-    <%= form.label :amount, style: "display: block" %>
-    <%= form.number_field :amount %>
-  </div>
+    <%= form.label :amount, class: "form-label", style: "display: block" %>
+    <%= form.number_field :amount, class: "form-control" %>
+  </div><br>
 
-  <div>
-    <%= form.submit %>
+  <div class="sign-buttons">
+    <%= form.submit class: "btn btn-success", id: "btn-log" %>
   </div>
 <% end %>
+</div>
