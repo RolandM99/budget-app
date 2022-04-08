@@ -1,14 +1,10 @@
-<div id="<%= dom_id transaction %>">
+<div class="single-cat" id="<%= dom_id transaction %>">
 
   <div class="category-img">
-    <%= image_tag example_img(@category) %>
+    <%= image_tag example_img(@category), class: "cat-img" %>
   </div>
-  <p>
+  <p class="cat-details">
     <strong><%= transaction.name %></strong>
-  </p>
-
-  <p>
     <strong> <%= transaction.amount %> $</strong>
   </p>
-
 </div>
