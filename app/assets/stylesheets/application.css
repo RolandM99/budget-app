@@ -13,10 +13,10 @@
  *= require_tree .
  *= require_self
  */
- @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&display=swap');
 
 body {
- font-family: 'Bona Nova', serif;
+  font-family: 'Bona Nova', serif;
 }
 
 .alert {
