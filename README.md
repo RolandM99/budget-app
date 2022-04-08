@@ -1,15 +1,20 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Budget App
+![](mobile.png)
+![](lap.png)
 
 ### About the project
 
-> BudgetApp is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+> BulgaApp is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
 
 ## Built With
 
 ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) &nbsp; &nbsp; <img src="https://1ohvy81v7br01wtgnj4bf0ek-wpengine.netdna-ssl.com/wp-content/uploads/2019/01/rspec.jpg" height="28" width="60" alt="RSpec"> &nbsp; &nbsp; ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) &nbsp; &nbsp; ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+- ### Live demo : [here](https://bulgabudget.herokuapp.com/)
+- ### Loom presentation : [live video](https://www.loom.com/share/a35eeb7753404cb2ae8efd38bbe06d20)
 
 ## Getting Started
 
@@ -64,6 +69,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Heartfelt thanks to Microverse
+- A special thanks to [design guidlines](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
 
 ## 📝 License
 
