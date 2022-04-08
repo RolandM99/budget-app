@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.5'
-
+gem 'ffi'
 # Add devise
 gem 'devise'
 
@@ -68,6 +68,11 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+end
+
+group :test, :development do
+  gem 'database_cleaner'
+  gem 'rspec-rails', '~> 5.0.0'
 end
 
 group :test do
