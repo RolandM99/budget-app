@@ -14,9 +14,6 @@
  *= require_self
  */
  @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&display=swap');
-/* - main color: blue: #3778c2
-   - second: green: #5fb523
-   - text black: #434b54 */
 
 body {
  font-family: 'Bona Nova', serif;
@@ -29,8 +26,8 @@ body {
 }
 
 .brand-logo {
- display: flex;
- justify-content: center;
+  display: flex;
+  justify-content: center;
   margin: 60px 0 150px 0;
   width: auto;
 }
@@ -107,7 +104,7 @@ h2 {
   height: 85px;
   background-color: white;
   border-radius: 5px;
-  box-shadow: rgba(116, 126, 146, 0.774) 0px 0px 5px;
+  box-shadow: rgba(116, 126, 146, 0.774) 0 0 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -134,11 +131,11 @@ h2 {
 .add-category {
   display: flex;
   justify-content: center;
-   margin-top: 40px;
-   height: 80px;
-   margin-bottom: 20px;
-   background-color: #5fb523;
-   border-radius: 5px;
+  margin-top: 40px;
+  height: 80px;
+  margin-bottom: 20px;
+  background-color: #5fb523;
+  border-radius: 5px;
 }
 
 .new {
